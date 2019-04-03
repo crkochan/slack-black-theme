@@ -4,7 +4,7 @@ A darker, more contrasty, Slack theme.
 
 # Preview
 
-![Screenshot](https://cloud.githubusercontent.com/assets/7691630/24120350/4cbb643e-0d82-11e7-8353-5d4eb65dfd6a.png)
+![Screenshot](https://user-images.githubusercontent.com/16766231/45268625-9052ec80-b47f-11e8-98d5-70c9fb188ea1.png)
 
 # Installing into Slack
 
