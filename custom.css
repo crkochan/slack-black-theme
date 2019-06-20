@@ -999,9 +999,6 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 .c-archive_footer__title {
     color: #e6e6e6;
 }
-.c-message_kit__reaction_bar .c-reaction_add {
-   background: #363636;
-}
 .cm-s-default .cm-string {
     color: #a4a4a4;
 }
