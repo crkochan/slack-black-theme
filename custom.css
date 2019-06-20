@@ -989,3 +989,6 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 .c-icon_button {
     color: #c7c7c7;
 }
+.cm-string {
+    color: #a4a4a4;
+}
