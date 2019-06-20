@@ -987,7 +987,10 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
     background: #363636;
     color: #e6e6e6;
 }
-.c-label__subtext .c-icon_button, .c-archive_footer__metadata {
+.c-label__subtext, .c-icon_button, .c-archive_footer__metadata {
+    color: #c7c7c7;
+}
+.c-icon_button--light, .c-icon_button--light.c-button-unstyled, .c-icon_button--light:link {
     color: #c7c7c7;
 }
 .c-message_attachment__author_name {
