@@ -971,3 +971,21 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 .c-mrkdwn__highlight {
     background: transparent !important;
 }
+
+.c-fullscreen_modal__header {
+    background: #272727;
+}
+
+.c-fullscreen_modal__body {
+    background: #363636;
+    color: #e6e6e6;
+}
+.c-label__subtext {
+    color: #c7c7c7;
+}
+.c-message_attachment__author_name {
+    color: #949494;
+}
+.c-icon_button {
+    color: #c7c7c7;
+}
