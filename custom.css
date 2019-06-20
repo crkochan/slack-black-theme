@@ -98,11 +98,11 @@ a {
     -webkit-tap-highlight-color: transparent;
 }
 .btn_outline.hover, .btn_outline:focus, .btn_outline:hover {
-    background: #fff;
+    background: #1264a3;
 }
 .btn_outline {
-    background: #f9f9f9;
-    color: #2c2d30!important;
+    background: #363636;
+    color: #e6e6e6!important;
     font-weight: 700;
     text-shadow: none;
 }
