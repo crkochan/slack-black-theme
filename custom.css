@@ -987,7 +987,7 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
     background: #363636;
     color: #e6e6e6;
 }
-.c-label__subtext .c-icon_button .c-archive_footer__metadata {
+.c-label__subtext .c-icon_button, .c-archive_footer__metadata {
     color: #c7c7c7;
 }
 .c-message_attachment__author_name {
@@ -997,9 +997,6 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
     color: #e6e6e6;
 }
 .cm-s-default .cm-string {
-    color: #a4a4a4;
-}
-.cm-string {
     color: #a4a4a4;
 }
 #footer_archives_preview {
