@@ -824,10 +824,10 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 .feature_channel_browser_dropdown .channel_browser_sort_container .lfs_input_container .selected, .feature_channel_browser_dropdown .show_which_channels_container .lfs_input_container .selected {
     color: #ffffff;
 }
-.channel_browser_row:hover:not(.disabled) {
+#channel_browser #channel_list_container:not(.keyboard_active).not_scrolling .channel_browser_row:hover:not(.disabled) {
     background: #363636;
 }
-.channel_browser_channel_created_info{
+#channel_browser .channel_browser_channel_created_info {
     color: #9c9b9c;
 }
 .menu ul li a:not(.inline_menu_link) {
