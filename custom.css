@@ -98,7 +98,8 @@ a {
     -webkit-tap-highlight-color: transparent;
 }
 .btn_outline.hover, .btn_outline:focus, .btn_outline:hover {
-    background: #1264a3;
+    // background: #1264a3;
+    background: #007a5a;
 }
 .btn_outline {
     background: #363636;
@@ -823,6 +824,12 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 .feature_channel_browser_dropdown .channel_browser_sort_container .lfs_input_container .selected, .feature_channel_browser_dropdown .show_which_channels_container .lfs_input_container .selected {
     color: #ffffff;
 }
+.channel_browser_row:hover:not(.disabled) {
+    background: #363636;
+}
+.channel_browser_channel_created_info{
+    color: #9c9b9c;
+}
 .menu ul li a:not(.inline_menu_link) {
     color: #e6e6e6 !important;
 }
@@ -980,15 +987,22 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
     background: #363636;
     color: #e6e6e6;
 }
-.c-label__subtext {
+.c-label__subtext .c-icon_button .c-archive_footer__metadata {
     color: #c7c7c7;
 }
 .c-message_attachment__author_name {
     color: #949494;
 }
-.c-icon_button {
-    color: #c7c7c7;
+.c-archive_footer__title {
+    color: #e6e6e6;
+}
+.cm-s-default .cm-string {
+    color: #a4a4a4;
 }
 .cm-string {
     color: #a4a4a4;
+}
+#footer_archives_preview {
+    background-color: #3a3a3a;
+    border-top: 1px solid #949494;
 }
