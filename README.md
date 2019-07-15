@@ -1,73 +1,18 @@
-# Slack Black Theme
+# Slack Dark Mode
 
-A darker, more contrasty, Slack theme.
+## Purpose
+Store scripts and Style sheets for Slack Dark Mode.
+Dark Mode in Slack isn't natively available as of this writing.  
 
-# Preview
+## Notice
+Due to the changes in Slack 4.0+ this project will not be compatible with Slack Version 3.4 or below.   
 
-![Screenshot](https://user-images.githubusercontent.com/16766231/45268625-9052ec80-b47f-11e8-98d5-70c9fb188ea1.png)
+## Screenshot
+![Screenshot](https://github.com/LanikSJ/slack-dark-mode/raw/master/images/screenshot.png "Screenshot")
 
-# Installing into Slack
+## Attributions
+Some scripts were "borrowed" from [mmrko](https://gist.github.com/mmrko) [Gist](https://gist.github.com/mmrko/9b0e65f6bcc1fca57089c32c2228aa39)  
+©️ All rights reserved by the original authors.  
 
-Find your Slack's application directory.
-
-* Windows: `%homepath%\AppData\Local\slack\`
-* Mac: `/Applications/Slack.app/Contents/`
-* Linux: `/usr/lib/slack/` (Debian-based)
-
-Replace the following file with the version from this repo:
-`resources\app.asar.unpacked\src\static\ssb-interop.js`
-
-That's it! Restart Slack and see how well it works.
-
-NB: You'll have to do this every time Slack updates.
-
-# Development
-
-`git clone` the project and `cd` into it.
-
-Change the CSS URL to `const cssPath = 'http://localhost:8080/custom.css';`
-
-Run a static webserver of some sort on port 8080:
-
-```bash
-npm install -g static
-static .
-```
-
-In addition to running the required modifications, you will likely want to add auto-reloading:
-
-```js
-const cssPath = 'http://localhost:8080/custom.css';
-const localCssPath = '/tmp/slack-black-theme/custom.css';
-
-window.reloadCss = function() {
-   const webviews = document.querySelectorAll(".TeamView webview");
-   fetch(cssPath + '?zz=' + Date.now(), {cache: "no-store"}) // qs hack to prevent cache
-      .then(response => response.text())
-      .then(css => {
-         console.log(css.slice(0,50));
-         webviews.forEach(webview =>
-            webview.executeJavaScript(`
-               (function() {
-                  let styleElement = document.querySelector('style#slack-custom-css');
-                  styleElement.innerHTML = \`${css}\`;
-               })();
-            `)
-         )
-      });
-};
-
-fs.watchFile(localCssPath, reloadCss);
-```
-
-Instead of launching Slack normally, you'll need to enable developer mode to be able to inspect things.
-
-* Mac: `export SLACK_DEVELOPER_MENU=true; open -a /Applications/Slack.app`
-
-* Linux: (todo)
-
-* Windows: (todo)
-
-# License
-
-Apache 2.0
+## License
+[![GPLv3 License](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
