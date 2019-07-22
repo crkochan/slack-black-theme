@@ -978,11 +978,9 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 .c-mrkdwn__highlight {
     background: transparent !important;
 }
-
 .c-fullscreen_modal__header {
     background: #272727;
 }
-
 .c-fullscreen_modal__body {
     background: #363636;
     color: #e6e6e6;
@@ -1005,4 +1003,19 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 #footer_archives_preview {
     background-color: #3a3a3a;
     border-top: 1px solid #949494;
+}
+.p-prefs_modal__notification_example.p-prefs_modal__notification_example--mac {
+    background: #272727;
+}
+.p-prefs_modal__radiogroup label.p-prefs_modal__radiogroup--selected {
+    background: #363636;
+}
+.p-prefs_modal__radiogroup .p-prefs_modal__radio_decorator {
+    background: #222222;
+}
+.c-select_button__content {
+    color: black;
+}
+.p-prefs_modal__channel_overrides_row__setting {
+    color: #a4a4a4;
 }
