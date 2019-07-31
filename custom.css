@@ -265,7 +265,7 @@ a {
 .c-pillow_file__description {
     color: #cacbcc !important;
 }
-.c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__user_group--mention, .c-mrkdwn__user_group--mention:hover {
+.c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__user_group--mention, .c-mrkdwn__user_group--mention:hover {
     color: black !important;
 }
 #threads_msgs .inline_message_input_container.with_file_upload {
@@ -977,6 +977,7 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 }
 .c-mrkdwn__highlight {
     background: transparent !important;
+    color: #00d0ea !important;
 }
 .c-fullscreen_modal__header {
     background: #272727;
@@ -1018,7 +1019,4 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 }
 .p-prefs_modal__channel_overrides_row__setting {
     color: #a4a4a4;
-}
-.c-mrkdwn__highlight {
-    color: #00d0ea !important;
 }
