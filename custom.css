@@ -1019,3 +1019,6 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 .p-prefs_modal__channel_overrides_row__setting {
     color: #a4a4a4;
 }
+.c-mrkdwn__highlight {
+    color: #00d0ea !important;
+}
