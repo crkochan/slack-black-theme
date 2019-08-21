@@ -1027,9 +1027,5 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
     border-color: #828282;
 }
 .p-workspace__input .p-message_input_file_button {
-    color: #828282;
-}
-.p-workspace__input .p-message_input_field.focus~.p-message_input_file_button:not(:hover) {
-    border-color: #828282;
-    color: #828282;
+    color: #828282 !important;
 }
