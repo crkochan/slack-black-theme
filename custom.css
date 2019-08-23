@@ -1032,7 +1032,7 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 .CodeMirror {
     background: #000 !important;
 }
-.c-filter_input__input {
+.c-filter_input__input[type=text][placeholder] {
     color: #e6e6e6;
 }
 .c-select_button__content {
