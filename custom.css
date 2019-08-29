@@ -1038,3 +1038,15 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 .c-select_button__content {
     color: #e6e6e6;
 }
+.p-channel_details__members_dialog {
+    background: #828282;
+}
+.p-channel_details__members_dialog__search {
+    background: #828282;
+}
+.c-sk-modal_title_bar--pad_right {
+    background: #828282;
+}
+.p-members_dialog__member_list_entity.c-base_list_entity c-base_list_entity--highlight-light{
+    background: #363636;
+}
