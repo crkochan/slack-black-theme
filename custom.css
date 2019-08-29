@@ -1050,3 +1050,9 @@ input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, 
 .p-members_dialog__member_list_entity.c-base_list_entity c-base_list_entity--highlight-light{
     background: #363636;
 }
+.c-select_button:not(:focus) {
+    background: #222222;
+}
+.c-button-unstyled c-select_button c-select_button--medium c-select_button--expanded {
+    background: #222222;
+}
